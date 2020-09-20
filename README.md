@@ -39,6 +39,7 @@ Additionally you'll need to install some Coc extensions...
 - `<Tab>` - Next buffer
 - `<Shift-Tab>` - Previous buffer
 - `<Ctrl-w>` - Switch between terminals
+- `,if` - Auto import JS file (select not imported component at first by typing ex. `]g`)
 
 ## Coc
 
@@ -47,3 +48,8 @@ Additionally you'll need to install some Coc extensions...
 - `,p` - Format with Prettier
 - `,do` - Show code actions
 - `<Space-d>` - show all warnings etc.
+
+# Possible problems and how to fix them
+
+## ctags job failed, returned 1
+If you're on Mac you need to install ctags. You can do it by typing `brew install ctags` in ur terminal.
