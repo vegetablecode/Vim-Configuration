@@ -11,6 +11,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'alvan/vim-closetag'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
 call plug#end()
 
@@ -27,7 +29,7 @@ set list listchars=trail:»,tab:»-
 set fillchars+=vert:\ 
 set wrap breakindent
 set encoding=utf-8
-set relativenumber 
+set number relativenumber 
 set title
 
 """ Plugin Configurations
@@ -41,6 +43,8 @@ let g:coc_global_extensions = [
 let NERDTreeShowHidden=1
 let g:NERDTreeDirArrowExpandable = '↠'
 let g:NERDTreeDirArrowCollapsible = '↡'
+set wildignore+=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
+let NERDTreeRespectWildIgnore=1
 
 " Neovim :Terminal
 tmap <Esc> <C-\><C-n>
