@@ -26,6 +26,20 @@ Additionally you'll need to install some Coc extensions...
 :CocInstall coc-eslint coc-prettier coc-tailwindcss coc-html coc-json coc-css coc-tsserver
 ```
 
+All my coc plugins:
+- coc-marketplace
+- coc-eslint
+- coc-highlight
+- coc-emmet
+- coc-prettier
+- coc-snippets
+- coc-tailwindcss
+- coc-html
+- coc-json
+- coc-tslint-plugin
+- coc-css
+- coc-server
+
 # Some Nice Commands
 
 ## MISC
